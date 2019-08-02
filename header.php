@@ -17,7 +17,6 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Cormorant:400,600|Work+Sans:300,400&display=swap&subset=cyrillic" rel="stylesheet">
     <?php wp_head(); ?>
 
 </head>
