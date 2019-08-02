@@ -10,8 +10,32 @@
  */
 
 ?>
+<footer class="contact_footer" id="contact_footer">
+    <a href="index.html" class="logo font_nav">
+        <h3>Teach</h3>
+    </a>
 
-	</div><!-- #content -->
+    <div class="contact_data">
+        <span class="address">г.Тирасполь ул.Юности 64а</span>
+        <span class="phone">Телефон: 0 (779) 59 - 745</span>
+        <span class="email"><a href="mailto:o.natusik_85@rambler.ru">Email: o.natusik_85@rambler.ru</a></span>
+    </div>
+
+    <div class="social">
+        <a href="#" class="ok">Ok</a>
+        <a href="#" class="vb">Viber</a>
+        <a href="#" class="wts">WhatsApp</a>
+    </div>
+
+    <a href="#top_header" class="top font_nav" id="top">Вверх</a>
+</footer>
+
+
+
+
+
+<!--
+	</div>
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
@@ -26,9 +50,11 @@
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'englishteach' ), 'englishteach', '<a href="http://underscores.me/">Underscores.me</a>' );
 				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+		</div>
+	</footer>
+</div>
+-->
+
 
 <?php wp_footer(); ?>
 
