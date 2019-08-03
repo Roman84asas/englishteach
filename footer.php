@@ -9,6 +9,7 @@
  * @package englishTeach
  */
 
+global $englishteach;
 ?>
 <footer class="contact_footer" id="contact_footer">
     <a href="index.html" class="logo font_nav">
@@ -16,15 +17,39 @@
     </a>
 
     <div class="contact_data">
-        <span class="address">г.Тирасполь ул.Юности 64а</span>
-        <span class="phone">Телефон: 0 (779) 59 - 745</span>
-        <span class="email"><a href="mailto:o.natusik_85@rambler.ru">Email: o.natusik_85@rambler.ru</a></span>
+        <?php if ($englishteach['address']) { ?>
+            <span class="address"><?php echo esc_attr($englishteach['address']); ?></span>
+        <?php } ?>
+
+        <?php if ($englishteach['phone']) { ?>
+            <span class="phone">Телефон: <?php echo esc_attr($englishteach['phone']); ?></span>
+        <?php } ?>
+
+        <?php if ($englishteach['email']) { ?>
+            <span class="email"><a href="mailto:o.natusik_85@rambler.ru">Email: <?php echo esc_attr($englishteach['email']); ?></a></span>
+        <?php } ?>
     </div>
 
     <div class="social">
-        <a href="#" class="ok">Ok</a>
-        <a href="#" class="vb">Viber</a>
-        <a href="#" class="wts">WhatsApp</a>
+        <?php
+            foreach ($englishteach['social'] as $key => $value){
+                if ($key == 'Ok'){ ?>
+                    <a href="<?php echo esc_url($englishteach['social']['Ok']); ?>" class="ok">Ok</a>
+                <?php } ?>
+
+                <?php if ($key == 'Viber'){ ?>
+                    <a href="<?php echo esc_url($englishteach['social']['Viber']); ?>" class="vb">Viber</a>
+                <?php } ?>
+
+                <?php if ($key == 'WatsApp'){ ?>
+                    <a href="<?php echo esc_url($englishteach['social']['WatsApp']); ?>" class="wts">WhatsApp</a>
+                <?php }
+            }
+        ?>
+
+
+
+
     </div>
 
     <a href="#top_header" class="top font_nav" id="top">Вверх</a>

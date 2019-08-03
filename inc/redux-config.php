@@ -74,7 +74,7 @@
         //Specify if the admin menu should appear or not. Options: menu or submenu (Under appearance only)
         'allow_sub_menu'       => true,
         // Show the sections below the admin menu item or not
-        'menu_title'           => __( 'Sample Options', 'englishteach' ),
+        'menu_title'           => __( 'Опции лендинга', 'englishteach' ),
         'page_title'           => __( 'Sample Options', 'englishteach' ),
         // You will need to generate a Google API key to use this feature.
         // Please visit: https://developers.google.com/fonts/docs/developer_api#Auth
@@ -293,7 +293,7 @@
         'desc'             => __( 'Данные для Соц сетей', 'englishteach' ),
         'fields'           => array(
             array(
-                'id'       => 'social-sortable',
+                'id'       => 'social',
                 'type'     => 'sortable',
                 'title'    => __( 'Перечень привязанных социальных ссылок.', 'englishteach' ),
                 'subtitle' => __( 'Отсортируйте и вставте данные в поля ссылок.', 'englishteach' ),
@@ -314,12 +314,31 @@
         'customizer_width' => '450px',
         'desc'             => __( 'Контактные данные', 'englishteach' ),
         'fields'           => array(
-
+            array(
+                'id'       => 'address',
+                'type'     => 'text',
+                'title'    => __( 'Контактные данные.', 'englishteach' ),
+                'default'  => 'г.Тирасполь ул.Юности 64а',
+            ),
+            array(
+                'id'       => 'phone',
+                'type'     => 'text',
+                'title'    => __( 'Телефонный номер.', 'englishteach' ),
+                'default'  => '0 (779) 59 - 745',
+            ),
+            array(
+                'id'       => 'email',
+                'type'     => 'text',
+                'title'    => __( 'Email', 'englishteach' ),
+                'validate' => 'email',
+                'msg'      => 'Введите правильный емайл',
+                'default'  => 'o.natusik_85@rambler.ru',
+            ),
         )
         ) );
 
 
-    Redux::setSection( $opt_name, array(
+/**    Redux::setSection( $opt_name, array(
         'title'            => __( 'Basic Fields', 'englishteach' ),
         'id'               => 'basic',
         'desc'             => __( 'These are really basic fields!', 'englishteach' ),
@@ -2240,7 +2259,7 @@
             ),
         )
     ) );
-
+**/
     Redux::setSection( $opt_name, array(
         'icon'            => 'el el-list-alt',
         'title'           => __( 'Customizer Only', 'englishteach' ),
