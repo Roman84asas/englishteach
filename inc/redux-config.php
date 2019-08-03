@@ -912,36 +912,36 @@
 
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Gallery', 'redux-framework-demo' ),
+        'title'      => __( 'Gallery', 'englishteach' ),
         'id'         => 'media-gallery',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/gallery/" target="_blank">docs.reduxframework.com/core/fields/gallery/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/gallery/" target="_blank">docs.reduxframework.com/core/fields/gallery/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'       => 'opt-gallery',
                 'type'     => 'gallery',
-                'title'    => __( 'Add/Edit Gallery', 'redux-framework-demo' ),
-                'subtitle' => __( 'Create a new Gallery by selecting existing or uploading new images using the WordPress native uploader', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Add/Edit Gallery', 'englishteach' ),
+                'subtitle' => __( 'Create a new Gallery by selecting existing or uploading new images using the WordPress native uploader', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
             ),
         )
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Media', 'redux-framework-demo' ),
+        'title'      => __( 'Media', 'englishteach' ),
         'id'         => 'media-media',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/media/" target="_blank">docs.reduxframework.com/core/fields/media/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/media/" target="_blank">docs.reduxframework.com/core/fields/media/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'       => 'opt-media',
                 'type'     => 'media',
                 'url'      => true,
-                'title'    => __( 'Media w/ URL', 'redux-framework-demo' ),
+                'title'    => __( 'Media w/ URL', 'englishteach' ),
                 'compiler' => 'true',
                 //'mode'      => false, // Can be set to false to allow any media type, or can also be set to any mime type.
-                'desc'     => __( 'Basic media uploader with disabled URL input field.', 'redux-framework-demo' ),
-                'subtitle' => __( 'Upload any media using the WordPress native uploader', 'redux-framework-demo' ),
+                'desc'     => __( 'Basic media uploader with disabled URL input field.', 'englishteach' ),
+                'subtitle' => __( 'Upload any media using the WordPress native uploader', 'englishteach' ),
                 'default'  => array( 'url' => 'https://s.wordpress.org/style/images/codeispoetry.png' ),
                 //'hint'      => array(
                 //    'title'     => 'Hint Title',
@@ -951,17 +951,17 @@
             array(
                 'id'       => 'media-no-url',
                 'type'     => 'media',
-                'title'    => __( 'Media w/o URL', 'redux-framework-demo' ),
-                'desc'     => __( 'This represents the minimalistic view. It does not have the preview box or the display URL in an input box. ', 'redux-framework-demo' ),
-                'subtitle' => __( 'Upload any media using the WordPress native uploader', 'redux-framework-demo' ),
+                'title'    => __( 'Media w/o URL', 'englishteach' ),
+                'desc'     => __( 'This represents the minimalistic view. It does not have the preview box or the display URL in an input box. ', 'englishteach' ),
+                'subtitle' => __( 'Upload any media using the WordPress native uploader', 'englishteach' ),
             ),
             array(
                 'id'       => 'media-no-preview',
                 'type'     => 'media',
                 'preview'  => false,
-                'title'    => __( 'Media No Preview', 'redux-framework-demo' ),
-                'desc'     => __( 'This represents the minimalistic view. It does not have the preview box or the display URL in an input box. ', 'redux-framework-demo' ),
-                'subtitle' => __( 'Upload any media using the WordPress native uploader', 'redux-framework-demo' ),
+                'title'    => __( 'Media No Preview', 'englishteach' ),
+                'desc'     => __( 'This represents the minimalistic view. It does not have the preview box or the display URL in an input box. ', 'englishteach' ),
+                'subtitle' => __( 'Upload any media using the WordPress native uploader', 'englishteach' ),
                 'hint'     => array(
                     'title'   => 'Test',
                     'content' => 'This is a <b>hint</b> tool-tip for the webFonts field.<br/><br/>Add any HTML based text you like here.',
@@ -970,32 +970,32 @@
             array(
                 'id'         => 'opt-random-upload',
                 'type'       => 'media',
-                'title'      => __( 'Upload Anything - Disabled Mode', 'redux-framework-demo' ),
+                'title'      => __( 'Upload Anything - Disabled Mode', 'englishteach' ),
                 'full_width' => true,
                 'mode'       => false,
                 // Can be set to false to allow any media type, or can also be set to any mime type.
-                'desc'       => __( 'Basic media uploader with disabled URL input field.', 'redux-framework-demo' ),
-                'subtitle'   => __( 'Upload any media using the WordPress native uploader', 'redux-framework-demo' ),
+                'desc'       => __( 'Basic media uploader with disabled URL input field.', 'englishteach' ),
+                'subtitle'   => __( 'Upload any media using the WordPress native uploader', 'englishteach' ),
             ),
         )
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Slides', 'redux-framework-demo' ),
+        'title'      => __( 'Slides', 'englishteach' ),
         'id'         => 'additional-slides',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/slides/" target="_blank">docs.reduxframework.com/core/fields/slides/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/slides/" target="_blank">docs.reduxframework.com/core/fields/slides/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'          => 'opt-slides',
                 'type'        => 'slides',
-                'title'       => __( 'Slides Options', 'redux-framework-demo' ),
-                'subtitle'    => __( 'Unlimited slides with drag and drop sortings.', 'redux-framework-demo' ),
-                'desc'        => __( 'This field will store all slides values into a multidimensional array to use into a foreach loop.', 'redux-framework-demo' ),
+                'title'       => __( 'Slides Options', 'englishteach' ),
+                'subtitle'    => __( 'Unlimited slides with drag and drop sortings.', 'englishteach' ),
+                'desc'        => __( 'This field will store all slides values into a multidimensional array to use into a foreach loop.', 'englishteach' ),
                 'placeholder' => array(
-                    'title'       => __( 'This is a title', 'redux-framework-demo' ),
-                    'description' => __( 'Description Here', 'redux-framework-demo' ),
-                    'url'         => __( 'Give us a link!', 'redux-framework-demo' ),
+                    'title'       => __( 'This is a title', 'englishteach' ),
+                    'description' => __( 'Description Here', 'englishteach' ),
+                    'url'         => __( 'Give us a link!', 'englishteach' ),
                 ),
             ),
         )
@@ -1003,16 +1003,16 @@
 
     // -> START Presentation Fields
     Redux::setSection( $opt_name, array(
-        'title' => __( 'Presentation Fields', 'redux-framework-demo' ),
+        'title' => __( 'Presentation Fields', 'englishteach' ),
         'id'    => 'presentation',
-        'desc'  => __( '', 'redux-framework-demo' ),
+        'desc'  => __( '', 'englishteach' ),
         'icon'  => 'el el-screen'
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Divide', 'redux-framework-demo' ),
+        'title'      => __( 'Divide', 'englishteach' ),
         'id'         => 'presentation-divide',
-        'desc'       => __( 'The spacer to the section menu as seen to the left (after this section block) is the divide "section". Also the divider below is the divide "field".', 'redux-framework-demo' ) . '<br />' . __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/divide/" target="_blank">docs.reduxframework.com/core/fields/divide/</a>',
+        'desc'       => __( 'The spacer to the section menu as seen to the left (after this section block) is the divide "section". Also the divider below is the divide "field".', 'englishteach' ) . '<br />' . __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/divide/" target="_blank">docs.reduxframework.com/core/fields/divide/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
@@ -1023,45 +1023,45 @@
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Info', 'redux-framework-demo' ),
+        'title'      => __( 'Info', 'englishteach' ),
         'id'         => 'presentation-info',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/info/" target="_blank">docs.reduxframework.com/core/fields/info/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/info/" target="_blank">docs.reduxframework.com/core/fields/info/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'   => 'opt-info-field',
                 'type' => 'info',
-                'desc' => __( 'This is the info field, if you want to break sections up.', 'redux-framework-demo' )
+                'desc' => __( 'This is the info field, if you want to break sections up.', 'englishteach' )
             ),
             array(
                 'id'    => 'opt-notice-info1',
                 'type'  => 'info',
                 'style' => 'info',
-                'title' => __( 'This is a title.', 'redux-framework-demo' ),
-                'desc'  => __( 'This is an info field with the <strong>info</strong> style applied. By default the <strong>normal</strong> style is applied.', 'redux-framework-demo' )
+                'title' => __( 'This is a title.', 'englishteach' ),
+                'desc'  => __( 'This is an info field with the <strong>info</strong> style applied. By default the <strong>normal</strong> style is applied.', 'englishteach' )
             ),
             array(
                 'id'    => 'opt-info-warning',
                 'type'  => 'info',
                 'style' => 'warning',
-                'title' => __( 'This is a title.', 'redux-framework-demo' ),
-                'desc'  => __( 'This is an info field with the <strong>warning</strong> style applied.', 'redux-framework-demo' )
+                'title' => __( 'This is a title.', 'englishteach' ),
+                'desc'  => __( 'This is an info field with the <strong>warning</strong> style applied.', 'englishteach' )
             ),
             array(
                 'id'    => 'opt-info-success',
                 'type'  => 'info',
                 'style' => 'success',
                 'icon'  => 'el el-info-circle',
-                'title' => __( 'This is a title.', 'redux-framework-demo' ),
-                'desc'  => __( 'This is an info field with the <strong>success</strong> style applied and an icon.', 'redux-framework-demo' )
+                'title' => __( 'This is a title.', 'englishteach' ),
+                'desc'  => __( 'This is an info field with the <strong>success</strong> style applied and an icon.', 'englishteach' )
             ),
             array(
                 'id'    => 'opt-info-critical',
                 'type'  => 'info',
                 'style' => 'critical',
                 'icon'  => 'el el-info-circle',
-                'title' => __( 'This is a title.', 'redux-framework-demo' ),
-                'desc'  => __( 'This is an info field with the <strong>critical</strong> style applied and an icon.', 'redux-framework-demo' )
+                'title' => __( 'This is a title.', 'englishteach' ),
+                'desc'  => __( 'This is an info field with the <strong>critical</strong> style applied and an icon.', 'englishteach' )
             ),
             array(
                 'id'    => 'opt-info-custom',
@@ -1069,23 +1069,23 @@
                 'style' => 'custom',
                 'color' => 'purple',
                 'icon'  => 'el el-info-circle',
-                'title' => __( 'This is a title.', 'redux-framework-demo' ),
-                'desc'  => __( 'This is an info field with the <strong>custom</strong> style applied, color arg passed, and an icon.', 'redux-framework-demo' )
+                'title' => __( 'This is a title.', 'englishteach' ),
+                'desc'  => __( 'This is an info field with the <strong>custom</strong> style applied, color arg passed, and an icon.', 'englishteach' )
             ),
             array(
                 'id'     => 'opt-info-normal',
                 'type'   => 'info',
                 'notice' => false,
-                'title'  => __( 'This is a title.', 'redux-framework-demo' ),
-                'desc'   => __( 'This is an info non-notice field with the <strong>normal</strong> style applied.', 'redux-framework-demo' )
+                'title'  => __( 'This is a title.', 'englishteach' ),
+                'desc'   => __( 'This is an info non-notice field with the <strong>normal</strong> style applied.', 'englishteach' )
             ),
             array(
                 'id'     => 'opt-notice-info',
                 'type'   => 'info',
                 'notice' => false,
                 'style'  => 'info',
-                'title'  => __( 'This is a title.', 'redux-framework-demo' ),
-                'desc'   => __( 'This is an info non-notice field with the <strong>info</strong> style applied.', 'redux-framework-demo' )
+                'title'  => __( 'This is a title.', 'englishteach' ),
+                'desc'   => __( 'This is an info non-notice field with the <strong>info</strong> style applied.', 'englishteach' )
             ),
             array(
                 'id'     => 'opt-notice-warning',
@@ -1093,8 +1093,8 @@
                 'notice' => false,
                 'style'  => 'warning',
                 'icon'   => 'el el-info-circle',
-                'title'  => __( 'This is a title.', 'redux-framework-demo' ),
-                'desc'   => __( 'This is an info non-notice field with the <strong>warning</strong> style applied and an icon.', 'redux-framework-demo' )
+                'title'  => __( 'This is a title.', 'englishteach' ),
+                'desc'   => __( 'This is an info non-notice field with the <strong>warning</strong> style applied and an icon.', 'englishteach' )
             ),
             array(
                 'id'     => 'opt-notice-success',
@@ -1102,8 +1102,8 @@
                 'notice' => false,
                 'style'  => 'success',
                 'icon'   => 'el el-info-circle',
-                'title'  => __( 'This is a title.', 'redux-framework-demo' ),
-                'desc'   => __( 'This is an info non-notice field with the <strong>success</strong> style applied and an icon.', 'redux-framework-demo' )
+                'title'  => __( 'This is a title.', 'englishteach' ),
+                'desc'   => __( 'This is an info non-notice field with the <strong>success</strong> style applied and an icon.', 'englishteach' )
             ),
             array(
                 'id'     => 'opt-notice-critical',
@@ -1111,36 +1111,36 @@
                 'notice' => false,
                 'style'  => 'critical',
                 'icon'   => 'el el-info-circle',
-                'title'  => __( 'This is a title.', 'redux-framework-demo' ),
-                'desc'   => __( 'This is an non-notice field with the <strong>critical</strong> style applied and an icon.', 'redux-framework-demo' )
+                'title'  => __( 'This is a title.', 'englishteach' ),
+                'desc'   => __( 'This is an non-notice field with the <strong>critical</strong> style applied and an icon.', 'englishteach' )
             ),
         )
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Section', 'redux-framework-demo' ),
+        'title'      => __( 'Section', 'englishteach' ),
         'id'         => 'presentation-section',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/section/" target="_blank">docs.reduxframework.com/core/fields/section/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/section/" target="_blank">docs.reduxframework.com/core/fields/section/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'       => 'section-start',
                 'type'     => 'section',
-                'title'    => __( 'Section Example', 'redux-framework-demo' ),
-                'subtitle' => __( 'With the "section" field you can create indented option sections.', 'redux-framework-demo' ),
+                'title'    => __( 'Section Example', 'englishteach' ),
+                'subtitle' => __( 'With the "section" field you can create indented option sections.', 'englishteach' ),
                 'indent'   => true, // Indent all options below until the next 'section' option is set.
             ),
             array(
                 'id'       => 'section-test',
                 'type'     => 'text',
-                'title'    => __( 'Field Title', 'redux-framework-demo' ),
-                'subtitle' => __( 'Field Subtitle', 'redux-framework-demo' ),
+                'title'    => __( 'Field Title', 'englishteach' ),
+                'subtitle' => __( 'Field Subtitle', 'englishteach' ),
             ),
             array(
                 'id'       => 'section-test-media',
                 'type'     => 'media',
-                'title'    => __( 'Field Title', 'redux-framework-demo' ),
-                'subtitle' => __( 'Field Subtitle', 'redux-framework-demo' ),
+                'title'    => __( 'Field Title', 'englishteach' ),
+                'subtitle' => __( 'Field Subtitle', 'englishteach' ),
             ),
             array(
                 'id'     => 'section-end',
@@ -1150,7 +1150,7 @@
             array(
                 'id'   => 'section-info',
                 'type' => 'info',
-                'desc' => __( 'And now you can add more fields below and outside of the indent.', 'redux-framework-demo' ),
+                'desc' => __( 'And now you can add more fields below and outside of the indent.', 'englishteach' ),
             ),
         ),
     ) );
@@ -1161,24 +1161,24 @@
 
     // -> START Switch & Button Set
     Redux::setSection( $opt_name, array(
-        'title' => __( 'Switch & Button Set', 'redux-framework-demo' ),
+        'title' => __( 'Switch & Button Set', 'englishteach' ),
         'id'    => 'switch_buttonset',
-        'desc'  => __( '', 'redux-framework-demo' ),
+        'desc'  => __( '', 'englishteach' ),
         'icon'  => 'el el-cogs'
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Button Set', 'redux-framework-demo' ),
+        'title'      => __( 'Button Set', 'englishteach' ),
         'id'         => 'switch_buttonset-set',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/button-set/" target="_blank">docs.reduxframework.com/core/fields/button-set/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/button-set/" target="_blank">docs.reduxframework.com/core/fields/button-set/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'       => 'opt-button-set',
                 'type'     => 'button_set',
-                'title'    => __( 'Button Set Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Button Set Option', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 //Must provide key => value pairs for radio options
                 'options'  => array(
                     '1' => 'Opt 1',
@@ -1190,9 +1190,9 @@
             array(
                 'id'       => 'opt-button-set-multi',
                 'type'     => 'button_set',
-                'title'    => __( 'Button Set, Multi Select', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Button Set, Multi Select', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 'multi'    => true,
                 //Must provide key => value pairs for radio options
                 'options'  => array(
@@ -1207,32 +1207,32 @@
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Switch', 'redux-framework-demo' ),
+        'title'      => __( 'Switch', 'englishteach' ),
         'id'         => 'switch_buttonset-switch',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/switch/" target="_blank">docs.reduxframework.com/core/fields/switch/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/switch/" target="_blank">docs.reduxframework.com/core/fields/switch/</a>',
         'subsection' => true,
         'fields'     => array(
 
             array(
                 'id'       => 'switch-on',
                 'type'     => 'switch',
-                'title'    => __( 'Switch On', 'redux-framework-demo' ),
-                'subtitle' => __( 'Look, it\'s on!', 'redux-framework-demo' ),
+                'title'    => __( 'Switch On', 'englishteach' ),
+                'subtitle' => __( 'Look, it\'s on!', 'englishteach' ),
                 'default'  => true,
             ),
             array(
                 'id'       => 'switch-off',
                 'type'     => 'switch',
-                'title'    => __( 'Switch Off', 'redux-framework-demo' ),
-                'subtitle' => __( 'Look, it\'s on!', 'redux-framework-demo' ),
+                'title'    => __( 'Switch Off', 'englishteach' ),
+                'subtitle' => __( 'Look, it\'s on!', 'englishteach' ),
                 //'options' => array('on', 'off'),
                 'default'  => false,
             ),
             array(
                 'id'       => 'switch-parent',
                 'type'     => 'switch',
-                'title'    => __( 'Switch - Nested Children, Enable to show', 'redux-framework-demo' ),
-                'subtitle' => __( 'Look, it\'s on! Also hidden child elements!', 'redux-framework-demo' ),
+                'title'    => __( 'Switch - Nested Children, Enable to show', 'englishteach' ),
+                'subtitle' => __( 'Look, it\'s on! Also hidden child elements!', 'englishteach' ),
                 'default'  => 0,
                 'on'       => 'Enabled',
                 'off'      => 'Disabled',
@@ -1241,18 +1241,18 @@
                 'id'       => 'switch-child1',
                 'type'     => 'switch',
                 'required' => array( 'switch-parent', '=', '1' ),
-                'title'    => __( 'Switch - This and the next switch required for patterns to show', 'redux-framework-demo' ),
-                'subtitle' => __( 'Also called a "fold" parent.', 'redux-framework-demo' ),
-                'desc'     => __( 'Items set with a fold to this ID will hide unless this is set to the appropriate value.', 'redux-framework-demo' ),
+                'title'    => __( 'Switch - This and the next switch required for patterns to show', 'englishteach' ),
+                'subtitle' => __( 'Also called a "fold" parent.', 'englishteach' ),
+                'desc'     => __( 'Items set with a fold to this ID will hide unless this is set to the appropriate value.', 'englishteach' ),
                 'default'  => false,
             ),
             array(
                 'id'       => 'switch-child2',
                 'type'     => 'switch',
                 'required' => array( 'switch-parent', '=', '1' ),
-                'title'    => __( 'Switch2 - Enable the above switch and this one for patterns to show', 'redux-framework-demo' ),
-                'subtitle' => __( 'Also called a "fold" parent.', 'redux-framework-demo' ),
-                'desc'     => __( 'Items set with a fold to this ID will hide unless this is set to the appropriate value.', 'redux-framework-demo' ),
+                'title'    => __( 'Switch2 - Enable the above switch and this one for patterns to show', 'englishteach' ),
+                'subtitle' => __( 'Also called a "fold" parent.', 'englishteach' ),
+                'desc'     => __( 'Items set with a fold to this ID will hide unless this is set to the appropriate value.', 'englishteach' ),
                 'default'  => false,
             ),
         )
@@ -1260,24 +1260,24 @@
 
     // -> START Select Fields
     Redux::setSection( $opt_name, array(
-        'title' => __( 'Select Fields', 'redux-framework-demo' ),
+        'title' => __( 'Select Fields', 'englishteach' ),
         'id'    => 'select',
         'icon'  => 'el el-list-alt'
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Select', 'redux-framework-demo' ),
+        'title'      => __( 'Select', 'englishteach' ),
         'id'         => 'select-select',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/select/" target="_blank">docs.reduxframework.com/core/fields/select/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/select/" target="_blank">docs.reduxframework.com/core/fields/select/</a>',
         'subsection' => true,
         'fields'     => array(
 
             array(
                 'id'       => 'opt-select',
                 'type'     => 'select',
-                'title'    => __( 'Select Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Select Option', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 //Must provide key => value pairs for select options
                 'options'  => array(
                     '1' => 'Opt 1',
@@ -1289,17 +1289,18 @@
             array(
                 'id'       => 'opt-select-stylesheet',
                 'type'     => 'select',
-                'title'    => __( 'Theme Stylesheet', 'redux-framework-demo' ),
-                'subtitle' => __( 'Select your themes alternative color scheme.', 'redux-framework-demo' ),
-                'options'  => array( 'default.css' => 'default.css', 'color1.css' => 'color1.css' ),
+                'title'    => __( 'Theme Stylesheet', 'englishteach' ),
+                'subtitle' => __( 'Select your themes alternative color scheme.', 'englishteach' ),
+                'options'  => array( 'default.css' => 'default.css',
+                                     'color1.css' => 'color1.css' ),
                 'default'  => 'default.css',
             ),
             array(
                 'id'       => 'opt-select-optgroup',
                 'type'     => 'select',
-                'title'    => __( 'Select Option with optgroup', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Select Option with optgroup', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 //Must provide key => value pairs for select options
                 'options'  => array(
                     'Group 1' => array(
@@ -1322,9 +1323,9 @@
                 'id'       => 'opt-multi-select',
                 'type'     => 'select',
                 'multi'    => true,
-                'title'    => __( 'Multi Select Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Multi Select Option', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 //Must provide key => value pairs for radio options
                 'options'  => array(
                     '1' => 'Opt 1',
@@ -1337,32 +1338,32 @@
             array(
                 'id'   => 'opt-info',
                 'type' => 'info',
-                'desc' => __( 'You can easily add a variety of data from WordPress.', 'redux-framework-demo' ),
+                'desc' => __( 'You can easily add a variety of data from WordPress.', 'englishteach' ),
             ),
             array(
                 'id'       => 'opt-select-categories',
                 'type'     => 'select',
                 'data'     => 'categories',
-                'title'    => __( 'Categories Select Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Categories Select Option', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
             ),
             array(
                 'id'       => 'opt-select-categories-multi',
                 'type'     => 'select',
                 'data'     => 'categories',
                 'multi'    => true,
-                'title'    => __( 'Categories Multi Select Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Categories Multi Select Option', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
             ),
             array(
                 'id'       => 'opt-select-pages',
                 'type'     => 'select',
                 'data'     => 'pages',
-                'title'    => __( 'Pages Select Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Pages Select Option', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
             ),
             array(
                 'id'       => 'opt-multi-select-pages',
