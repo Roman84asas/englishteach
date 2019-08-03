@@ -278,17 +278,17 @@
 
     // -> START Basic Fields
     Redux::setSection( $opt_name, array(
-        'title'            => __( 'Basic Fields', 'redux-framework-demo' ),
+        'title'            => __( 'Basic Fields', 'englishteach' ),
         'id'               => 'basic',
-        'desc'             => __( 'These are really basic fields!', 'redux-framework-demo' ),
+        'desc'             => __( 'These are really basic fields!', 'englishteach' ),
         'customizer_width' => '400px',
         'icon'             => 'el el-home'
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'            => __( 'Footer Fields', 'redux-framework-demo' ),
+        'title'            => __( 'Footer Fields', 'englishteach' ),
         'id'               => 'basic',
-        'desc'             => __( 'These are really basic fields!', 'redux-framework-demo' ),
+        'desc'             => __( 'These are really basic fields!', 'englishteach' ),
         'customizer_width' => '400px',
         'icon'             => 'el el-home'
     ) );
@@ -298,22 +298,22 @@
         'id'               => 'basic-checkbox',
         'subsection'       => true,
         'customizer_width' => '450px',
-        'desc'             => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/checkbox/" target="_blank">docs.reduxframework.com/core/fields/checkbox/</a>',
+        'desc'             => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/checkbox/" target="_blank">docs.reduxframework.com/core/fields/checkbox/</a>',
         'fields'           => array(
             array(
                 'id'       => 'opt-checkbox',
                 'type'     => 'checkbox',
-                'title'    => __( 'Checkbox Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Checkbox Option', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 'default'  => '1'// 1 = on | 0 = off
             ),
             array(
                 'id'       => 'opt-multi-check',
                 'type'     => 'checkbox',
-                'title'    => __( 'Multi Checkbox Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Multi Checkbox Option', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 //Must provide key => value pairs for multi checkbox options
                 'options'  => array(
                     '1' => 'Opt 1',
@@ -330,34 +330,34 @@
             array(
                 'id'       => 'opt-checkbox-data',
                 'type'     => 'checkbox',
-                'title'    => __( 'Multi Checkbox Option (with menu data)', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Multi Checkbox Option (with menu data)', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 'data'     => 'menu'
             ),
             array(
                 'id'       => 'opt-checkbox-sidebar',
                 'type'     => 'checkbox',
-                'title'    => __( 'Multi Checkbox Option (with sidebar data)', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Multi Checkbox Option (with sidebar data)', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 'data'     => 'sidebars'
             ),
         )
     ) );
     Redux::setSection( $opt_name, array(
-        'title'            => __( 'Radio', 'redux-framework-demo' ),
+        'title'            => __( 'Radio', 'englishteach' ),
         'id'               => 'basic-Radio',
         'subsection'       => true,
         'customizer_width' => '500px',
-        'desc'             => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/radio/" target="_blank">docs.reduxframework.com/core/fields/radio/</a>',
+        'desc'             => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/radio/" target="_blank">docs.reduxframework.com/core/fields/radio/</a>',
         'fields'           => array(
             array(
                 'id'       => 'opt-radio',
                 'type'     => 'radio',
-                'title'    => __( 'Radio Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Radio Option', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 //Must provide key => value pairs for radio options
                 'options'  => array(
                     '1' => 'Opt 1',
@@ -369,25 +369,25 @@
             array(
                 'id'       => 'opt-radio-data',
                 'type'     => 'radio',
-                'title'    => __( 'Radio Option w/ Menu Data', 'redux-framework-demo' ),
-                'subtitle' => __( 'No validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Radio Option w/ Menu Data', 'englishteach' ),
+                'subtitle' => __( 'No validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 'data'     => 'menu'
             ),
         )
     ) );
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Sortable', 'redux-framework-demo' ),
+        'title'      => __( 'Sortable', 'englishteach' ),
         'id'         => 'basic-Sortable',
         'subsection' => true,
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/sortable/" target="_blank">docs.reduxframework.com/core/fields/sortable/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/sortable/" target="_blank">docs.reduxframework.com/core/fields/sortable/</a>',
         'fields'     => array(
             array(
                 'id'       => 'opt-sortable',
                 'type'     => 'sortable',
-                'title'    => __( 'Sortable Text Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'Define and reorder these however you want.', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Sortable Text Option', 'englishteach' ),
+                'subtitle' => __( 'Define and reorder these however you want.', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 'label'    => true,
                 'options'  => array(
                     'Text One'   => 'Item 1',
@@ -399,9 +399,9 @@
                 'id'       => 'opt-check-sortable',
                 'type'     => 'sortable',
                 'mode'     => 'checkbox', // checkbox or text
-                'title'    => __( 'Sortable Text Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'Define and reorder these however you want.', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Sortable Text Option', 'englishteach' ),
+                'subtitle' => __( 'Define and reorder these however you want.', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 'options'  => array(
                     'cb1' => 'Checkbox One',
                     'cb2' => 'Checkbox Two',
@@ -418,8 +418,8 @@
 
 
     Redux::setSection( $opt_name, array(
-        'title'            => __( 'Text', 'redux-framework-demo' ),
-        'desc'             => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/text/" target="_blank">docs.reduxframework.com/core/fields/text/</a>',
+        'title'            => __( 'Text', 'englishteach' ),
+        'desc'             => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/text/" target="_blank">docs.reduxframework.com/core/fields/text/</a>',
         'id'               => 'basic-Text',
         'subsection'       => true,
         'customizer_width' => '700px',
@@ -427,17 +427,17 @@
             array(
                 'id'       => 'text-example',
                 'type'     => 'text',
-                'title'    => __( 'Text Field', 'redux-framework-demo' ),
-                'subtitle' => __( 'Subtitle', 'redux-framework-demo' ),
-                'desc'     => __( 'Field Description', 'redux-framework-demo' ),
+                'title'    => __( 'Text Field', 'englishteach' ),
+                'subtitle' => __( 'Subtitle', 'englishteach' ),
+                'desc'     => __( 'Field Description', 'englishteach' ),
                 'default'  => 'Default Text',
             ),
             array(
                 'id'        => 'text-example-hint',
                 'type'      => 'text',
-                'title'     => __( 'Text Field w/ Hint', 'redux-framework-demo' ),
-                'subtitle'  => __( 'Subtitle', 'redux-framework-demo' ),
-                'desc'      => __( 'Field Description', 'redux-framework-demo' ),
+                'title'     => __( 'Text Field w/ Hint', 'englishteach' ),
+                'subtitle'  => __( 'Subtitle', 'englishteach' ),
+                'desc'      => __( 'Field Description', 'englishteach' ),
                 'default'   => 'Default Text',
                 'text_hint' => array(
                     'title'   => 'Hint Title',
@@ -447,9 +447,9 @@
             array(
                 'id'          => 'text-placeholder',
                 'type'        => 'text',
-                'title'       => __( 'Text Field', 'redux-framework-demo' ),
-                'subtitle'    => __( 'Subtitle', 'redux-framework-demo' ),
-                'desc'        => __( 'Field Description', 'redux-framework-demo' ),
+                'title'       => __( 'Text Field', 'englishteach' ),
+                'subtitle'    => __( 'Subtitle', 'englishteach' ),
+                'desc'        => __( 'Field Description', 'englishteach' ),
                 'placeholder' => 'Placeholder Text',
             ),
 
@@ -457,24 +457,24 @@
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Multi Text', 'redux-framework-demo' ),
+        'title'      => __( 'Multi Text', 'englishteach' ),
         'id'         => 'basic-Multi Text',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/multi-text/" target="_blank">docs.reduxframework.com/core/fields/multi-text/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/multi-text/" target="_blank">docs.reduxframework.com/core/fields/multi-text/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'       => 'opt-multitext',
                 'type'     => 'multi_text',
-                'title'    => __( 'Multi Text Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'Field subtitle', 'redux-framework-demo' ),
-                'desc'     => __( 'Field Decription', 'redux-framework-demo' ),
+                'title'    => __( 'Multi Text Option', 'englishteach' ),
+                'subtitle' => __( 'Field subtitle', 'englishteach' ),
+                'desc'     => __( 'Field Decription', 'englishteach' ),
             ),
         )
     ) );
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Password', 'redux-framework-demo' ),
+        'title'      => __( 'Password', 'englishteach' ),
         'id'         => 'basic-Password',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/password/" target="_blank">docs.reduxframework.com/core/fields/password/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/password/" target="_blank">docs.reduxframework.com/core/fields/password/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
@@ -491,17 +491,17 @@
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Textarea', 'redux-framework-demo' ),
+        'title'      => __( 'Textarea', 'englishteach' ),
         'id'         => 'basic-Textarea',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/textarea/" target="_blank">docs.reduxframework.com/core/fields/textarea/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/textarea/" target="_blank">docs.reduxframework.com/core/fields/textarea/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'       => 'opt-textarea',
                 'type'     => 'textarea',
-                'title'    => __( 'Textarea Option - HTML Validated Custom', 'redux-framework-demo' ),
-                'subtitle' => __( 'Subtitle', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Textarea Option - HTML Validated Custom', 'englishteach' ),
+                'subtitle' => __( 'Subtitle', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 'default'  => 'Default Text',
             )
         )
@@ -509,30 +509,30 @@
 
     // -> START Editors
     Redux::setSection( $opt_name, array(
-        'title'            => __( 'Editors', 'redux-framework-demo' ),
+        'title'            => __( 'Editors', 'englishteach' ),
         'id'               => 'editor',
         'customizer_width' => '500px',
         'icon'             => 'el el-edit',
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'WordPress Editor', 'redux-framework-demo' ),
+        'title'      => __( 'WordPress Editor', 'englishteach' ),
         'id'         => 'editor-wordpress',
         //'icon'  => 'el el-home'
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/editor/" target="_blank">docs.reduxframework.com/core/fields/editor/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/editor/" target="_blank">docs.reduxframework.com/core/fields/editor/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'       => 'opt-editor',
                 'type'     => 'editor',
-                'title'    => __( 'Editor', 'redux-framework-demo' ),
-                'subtitle' => __( 'Use any of the features of WordPress editor inside your panel!', 'redux-framework-demo' ),
+                'title'    => __( 'Editor', 'englishteach' ),
+                'subtitle' => __( 'Use any of the features of WordPress editor inside your panel!', 'englishteach' ),
                 'default'  => 'Powered by Redux Framework.',
             ),
             array(
                 'id'      => 'opt-editor-tiny',
                 'type'    => 'editor',
-                'title'   => __( 'Editor w/o Media Button', 'redux-framework-demo' ),
+                'title'   => __( 'Editor w/o Media Button', 'englishteach' ),
                 'default' => 'Powered by Redux Framework.',
                 'args'    => array(
                     'wpautop'       => false,
@@ -548,25 +548,25 @@
             array(
                 'id'         => 'opt-editor-full',
                 'type'       => 'editor',
-                'title'      => __( 'Editor - Full Width', 'redux-framework-demo' ),
+                'title'      => __( 'Editor - Full Width', 'englishteach' ),
                 'full_width' => true
             ),
         ),
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/editor/" target="_blank">docs.reduxframework.com/core/fields/editor/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/editor/" target="_blank">docs.reduxframework.com/core/fields/editor/</a>',
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'ACE Editor', 'redux-framework-demo' ),
+        'title'      => __( 'ACE Editor', 'englishteach' ),
         'id'         => 'editor-ace',
         //'icon'  => 'el el-home'
         'subsection' => true,
-        'desc'       => __( 'For full documentation on the this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/ace-editor/" target="_blank">docs.reduxframework.com/core/fields/ace-editor/</a>',
+        'desc'       => __( 'For full documentation on the this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/ace-editor/" target="_blank">docs.reduxframework.com/core/fields/ace-editor/</a>',
         'fields'     => array(
             array(
                 'id'       => 'opt-ace-editor-css',
                 'type'     => 'ace_editor',
-                'title'    => __( 'CSS Code', 'redux-framework-demo' ),
-                'subtitle' => __( 'Paste your CSS code here.', 'redux-framework-demo' ),
+                'title'    => __( 'CSS Code', 'englishteach' ),
+                'subtitle' => __( 'Paste your CSS code here.', 'englishteach' ),
                 'mode'     => 'css',
                 'theme'    => 'monokai',
                 'desc'     => 'Possible modes can be found at <a href="' . 'http://' . 'ace.c9.io" target="_blank">' . 'http://' . 'ace.c9.io/</a>.',
@@ -575,8 +575,8 @@
             array(
                 'id'       => 'opt-ace-editor-js',
                 'type'     => 'ace_editor',
-                'title'    => __( 'JS Code', 'redux-framework-demo' ),
-                'subtitle' => __( 'Paste your JS code here.', 'redux-framework-demo' ),
+                'title'    => __( 'JS Code', 'englishteach' ),
+                'subtitle' => __( 'Paste your JS code here.', 'englishteach' ),
                 'mode'     => 'javascript',
                 'theme'    => 'chrome',
                 'desc'     => 'Possible modes can be found at <a href="' . 'http://' . 'ace.c9.io" target="_blank">' . 'http://' . 'ace.c9.io/</a>.',
@@ -586,8 +586,8 @@
                 'id'         => 'opt-ace-editor-php',
                 'type'       => 'ace_editor',
                 'full_width' => true,
-                'title'      => __( 'PHP Code', 'redux-framework-demo' ),
-                'subtitle'   => __( 'Paste your PHP code here.', 'redux-framework-demo' ),
+                'title'      => __( 'PHP Code', 'englishteach' ),
+                'subtitle'   => __( 'Paste your PHP code here.', 'englishteach' ),
                 'mode'       => 'php',
                 'theme'      => 'chrome',
                 'desc'       => 'Possible modes can be found at <a href="' . 'http://' . 'ace.c9.io" target="_blank">' . 'http://' . 'ace.c9.io/</a>.',
@@ -601,48 +601,48 @@
 
     // -> START Color Selection
     Redux::setSection( $opt_name, array(
-        'title' => __( 'Color Selection', 'redux-framework-demo' ),
+        'title' => __( 'Color Selection', 'englishteach' ),
         'id'    => 'color',
-        'desc'  => __( '', 'redux-framework-demo' ),
+        'desc'  => __( '', 'englishteach' ),
         'icon'  => 'el el-brush'
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Color', 'redux-framework-demo' ),
+        'title'      => __( 'Color', 'englishteach' ),
         'id'         => 'color-Color',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/color/" target="_blank">docs.reduxframework.com/core/fields/color/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/color/" target="_blank">docs.reduxframework.com/core/fields/color/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'       => 'opt-color-title',
                 'type'     => 'color',
                 'output'   => array( '.site-title' ),
-                'title'    => __( 'Site Title Color', 'redux-framework-demo' ),
-                'subtitle' => __( 'Pick a title color for the theme (default: #000).', 'redux-framework-demo' ),
+                'title'    => __( 'Site Title Color', 'englishteach' ),
+                'subtitle' => __( 'Pick a title color for the theme (default: #000).', 'englishteach' ),
                 'default'  => '#000000',
             ),
             array(
                 'id'       => 'opt-color-footer',
                 'type'     => 'color',
-                'title'    => __( 'Footer Background Color', 'redux-framework-demo' ),
-                'subtitle' => __( 'Pick a background color for the footer (default: #dd9933).', 'redux-framework-demo' ),
+                'title'    => __( 'Footer Background Color', 'englishteach' ),
+                'subtitle' => __( 'Pick a background color for the footer (default: #dd9933).', 'englishteach' ),
                 'default'  => '#dd9933',
                 'validate' => 'color',
             ),
         ),
     ) );
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Color Gradient', 'redux-framework-demo' ),
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/color-gradient/" target="_blank">docs.reduxframework.com/core/fields/color-gradient/</a>',
+        'title'      => __( 'Color Gradient', 'englishteach' ),
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/color-gradient/" target="_blank">docs.reduxframework.com/core/fields/color-gradient/</a>',
         'id'         => 'color-gradient',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'       => 'opt-color-header',
                 'type'     => 'color_gradient',
-                'title'    => __( 'Header Gradient Color Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'Only color validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Header Gradient Color Option', 'englishteach' ),
+                'subtitle' => __( 'Only color validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 'default'  => array(
                     'from' => '#1e73be',
                     'to'   => '#00897e'
@@ -651,16 +651,16 @@
         )
     ) );
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Color RGBA', 'redux-framework-demo' ),
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/color-rgba/" target="_blank">docs.reduxframework.com/core/fields/color-rgba/</a>',
+        'title'      => __( 'Color RGBA', 'englishteach' ),
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/color-rgba/" target="_blank">docs.reduxframework.com/core/fields/color-rgba/</a>',
         'id'         => 'color-rgba',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'       => 'opt-color-rgba',
                 'type'     => 'color_rgba',
-                'title'    => __( 'Color RGBA', 'redux-framework-demo' ),
-                'subtitle' => __( 'Gives you the RGBA color.', 'redux-framework-demo' ),
+                'title'    => __( 'Color RGBA', 'englishteach' ),
+                'subtitle' => __( 'Gives you the RGBA color.', 'englishteach' ),
                 'default'  => array(
                     'color' => '#7e33dd',
                     'alpha' => '.8'
@@ -672,17 +672,17 @@
         )
     ) );
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Link Color', 'redux-framework-demo' ),
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/link-color/" target="_blank">docs.reduxframework.com/core/fields/link-color/</a>',
+        'title'      => __( 'Link Color', 'englishteach' ),
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/link-color/" target="_blank">docs.reduxframework.com/core/fields/link-color/</a>',
         'id'         => 'color-link',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'       => 'opt-link-color',
                 'type'     => 'link_color',
-                'title'    => __( 'Links Color Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'Only color validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Links Color Option', 'englishteach' ),
+                'subtitle' => __( 'Only color validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 //'regular'   => false, // Disable Regular Color
                 //'hover'     => false, // Disable Hover Color
                 //'active'    => false, // Disable Active Color
@@ -697,17 +697,17 @@
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Palette Colors', 'redux-framework-demo' ),
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/palette-color/" target="_blank">docs.reduxframework.com/core/fields/palette-color/</a>',
+        'title'      => __( 'Palette Colors', 'englishteach' ),
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/palette-color/" target="_blank">docs.reduxframework.com/core/fields/palette-color/</a>',
         'id'         => 'color-palette',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'       => 'opt-palette-color',
                 'type'     => 'palette',
-                'title'    => __( 'Palette Color Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'Only color validation can be done on this field type', 'redux-framework-demo' ),
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'title'    => __( 'Palette Color Option', 'englishteach' ),
+                'subtitle' => __( 'Only color validation can be done on this field type', 'englishteach' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 'default'  => 'red',
                 'palettes' => array(
                     'red'  => array(
@@ -737,14 +737,14 @@
 
     // -> START Design Fields
     Redux::setSection( $opt_name, array(
-        'title' => __( 'Design Fields', 'redux-framework-demo' ),
+        'title' => __( 'Design Fields', 'englishteach' ),
         'id'    => 'design',
-        'desc'  => __( '', 'redux-framework-demo' ),
+        'desc'  => __( '', 'englishteach' ),
         'icon'  => 'el el-wrench'
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Background', 'redux-framework-demo' ),
+        'title'      => __( 'Background', 'englishteach' ),
         'id'         => 'design-background',
         'subsection' => true,
         'fields'     => array(
@@ -752,29 +752,29 @@
                 'id'       => 'opt-background',
                 'type'     => 'background',
                 'output'   => array( 'body' ),
-                'title'    => __( 'Body Background', 'redux-framework-demo' ),
-                'subtitle' => __( 'Body background with image, color, etc.', 'redux-framework-demo' ),
+                'title'    => __( 'Body Background', 'englishteach' ),
+                'subtitle' => __( 'Body background with image, color, etc.', 'englishteach' ),
                 //'default'   => '#FFFFFF',
             ),
 
         ),
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/background/" target="_blank">docs.reduxframework.com/core/fields/background/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/background/" target="_blank">docs.reduxframework.com/core/fields/background/</a>',
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Border', 'redux-framework-demo' ),
+        'title'      => __( 'Border', 'englishteach' ),
         'id'         => 'design-border',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/border/" target="_blank">docs.reduxframework.com/core/fields/border/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/border/" target="_blank">docs.reduxframework.com/core/fields/border/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
                 'id'       => 'opt-header-border',
                 'type'     => 'border',
-                'title'    => __( 'Header Border Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'Only color validation can be done on this field type', 'redux-framework-demo' ),
+                'title'    => __( 'Header Border Option', 'englishteach' ),
+                'subtitle' => __( 'Only color validation can be done on this field type', 'englishteach' ),
                 'output'   => array( '.site-header' ),
                 // An array of CSS selectors to apply this font style to
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 'default'  => array(
                     'border-color'  => '#1e73be',
                     'border-style'  => 'solid',
@@ -787,12 +787,12 @@
             array(
                 'id'       => 'opt-header-border-expanded',
                 'type'     => 'border',
-                'title'    => __( 'Header Border Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'Only color validation can be done on this field type', 'redux-framework-demo' ),
+                'title'    => __( 'Header Border Option', 'englishteach' ),
+                'subtitle' => __( 'Only color validation can be done on this field type', 'englishteach' ),
                 'output'   => array( '.site-header' ),
                 'all'      => false,
                 // An array of CSS selectors to apply this font style to
-                'desc'     => __( 'This is the description field, again good for additional info.', 'redux-framework-demo' ),
+                'desc'     => __( 'This is the description field, again good for additional info.', 'englishteach' ),
                 'default'  => array(
                     'border-color'  => '#1e73be',
                     'border-style'  => 'solid',
@@ -806,9 +806,9 @@
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Dimensions', 'redux-framework-demo' ),
+        'title'      => __( 'Dimensions', 'englishteach' ),
         'id'         => 'design-dimensions',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/dimensions/" target="_blank">docs.reduxframework.com/core/fields/dimensions/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/dimensions/" target="_blank">docs.reduxframework.com/core/fields/dimensions/</a>',
         'subsection' => true,
         'fields'     => array(
             array(
@@ -816,9 +816,9 @@
                 'type'           => 'dimensions',
                 'units'          => array( 'em', 'px', '%' ),    // You can specify a unit value. Possible: px, em, %
                 'units_extended' => 'true',  // Allow users to select any type of unit
-                'title'          => __( 'Dimensions (Width/Height) Option', 'redux-framework-demo' ),
-                'subtitle'       => __( 'Allow your users to choose width, height, and/or unit.', 'redux-framework-demo' ),
-                'desc'           => __( 'You can enable or disable any piece of this field. Width, Height, or Units.', 'redux-framework-demo' ),
+                'title'          => __( 'Dimensions (Width/Height) Option', 'englishteach' ),
+                'subtitle'       => __( 'Allow your users to choose width, height, and/or unit.', 'englishteach' ),
+                'desc'           => __( 'You can enable or disable any piece of this field. Width, Height, or Units.', 'englishteach' ),
                 'default'        => array(
                     'width'  => 200,
                     'height' => 100,
@@ -829,9 +829,9 @@
                 'type'           => 'dimensions',
                 'units'          => array( 'em', 'px', '%' ),    // You can specify a unit value. Possible: px, em, %
                 'units_extended' => 'true',  // Allow users to select any type of unit
-                'title'          => __( 'Dimensions (Width) Option', 'redux-framework-demo' ),
-                'subtitle'       => __( 'Allow your users to choose width, height, and/or unit.', 'redux-framework-demo' ),
-                'desc'           => __( 'You can enable or disable any piece of this field. Width, Height, or Units.', 'redux-framework-demo' ),
+                'title'          => __( 'Dimensions (Width) Option', 'englishteach' ),
+                'subtitle'       => __( 'Allow your users to choose width, height, and/or unit.', 'englishteach' ),
+                'desc'           => __( 'You can enable or disable any piece of this field. Width, Height, or Units.', 'englishteach' ),
                 'height'         => false,
                 'default'        => array(
                     'width'  => 200,
@@ -842,9 +842,9 @@
     ) );
 
     Redux::setSection( $opt_name, array(
-        'title'      => __( 'Spacing', 'redux-framework-demo' ),
+        'title'      => __( 'Spacing', 'englishteach' ),
         'id'         => 'design-spacing',
-        'desc'       => __( 'For full documentation on this field, visit: ', 'redux-framework-demo' ) . '<a href="//docs.reduxframework.com/core/fields/spacing/" target="_blank">docs.reduxframework.com/core/fields/spacing/</a>',
+        'desc'       => __( 'For full documentation on this field, visit: ', 'englishteach' ) . '<a href="//docs.reduxframework.com/core/fields/spacing/" target="_blank">docs.reduxframework.com/core/fields/spacing/</a>',
         'subsection' => true,
         'fields'     => array(
 
@@ -864,9 +864,9 @@
                 //'units'         => 'em',      // You can specify a unit value. Possible: px, em, %
                 //'units_extended'=> 'true',    // Allow users to select any type of unit
                 //'display_units' => 'false',   // Set to false to hide the units if the units are specified
-                'title'    => __( 'Padding/Margin Option', 'redux-framework-demo' ),
-                'subtitle' => __( 'Allow your users to choose the spacing or margin they want.', 'redux-framework-demo' ),
-                'desc'     => __( 'You can enable or disable any piece of this field. Top, Right, Bottom, Left, or Units.', 'redux-framework-demo' ),
+                'title'    => __( 'Padding/Margin Option', 'englishteach' ),
+                'subtitle' => __( 'Allow your users to choose the spacing or margin they want.', 'englishteach' ),
+                'desc'     => __( 'You can enable or disable any piece of this field. Top, Right, Bottom, Left, or Units.', 'englishteach' ),
                 'default'  => array(
                     'margin-top'    => '1px',
                     'margin-right'  => '2px',
@@ -889,9 +889,9 @@
                 'units'          => array( 'em', 'px', '%' ),      // You can specify a unit value. Possible: px, em, %
                 'units_extended' => 'true',    // Allow users to select any type of unit
                 //'display_units' => 'false',   // Set to false to hide the units if the units are specified
-                'title'          => __( 'Padding/Margin Option', 'redux-framework-demo' ),
-                'subtitle'       => __( 'Allow your users to choose the spacing or margin they want.', 'redux-framework-demo' ),
-                'desc'           => __( 'You can enable or disable any piece of this field. Top, Right, Bottom, Left, or Units.', 'redux-framework-demo' ),
+                'title'          => __( 'Padding/Margin Option', 'englishteach' ),
+                'subtitle'       => __( 'Allow your users to choose the spacing or margin they want.', 'englishteach' ),
+                'desc'           => __( 'You can enable or disable any piece of this field. Top, Right, Bottom, Left, or Units.', 'englishteach' ),
                 'default'        => array(
                     'margin-top'    => '1px',
                     'margin-right'  => '2px',
@@ -904,9 +904,9 @@
 
     // -> START Media Uploads
     Redux::setSection( $opt_name, array(
-        'title' => __( 'Media Uploads', 'redux-framework-demo' ),
+        'title' => __( 'Media Uploads', 'englishteach' ),
         'id'    => 'media',
-        'desc'  => __( '', 'redux-framework-demo' ),
+        'desc'  => __( '', 'englishteach' ),
         'icon'  => 'el el-picture'
     ) );
 
