@@ -75,7 +75,7 @@
         'allow_sub_menu'       => true,
         // Show the sections below the admin menu item or not
         'menu_title'           => __( 'Опции лендинга', 'englishteach' ),
-        'page_title'           => __( 'Sample Options', 'englishteach' ),
+        'page_title'           => __( 'Опции лендинга', 'englishteach' ),
         // You will need to generate a Google API key to use this feature.
         // Please visit: https://developers.google.com/fonts/docs/developer_api#Auth
         'google_api_key'       => '',
