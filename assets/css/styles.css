@@ -61,7 +61,7 @@ body {
   height: 16px;
   margin-right: 5px;
   cursor: pointer;
-  background: url('../img//mobile.png') center center no-repeat;
+  background: url('../img/mobile.png') center center no-repeat;
   transition: all 400ms ease-in-out;
 }
 .top_header .top_right_nav .mobile:hover {
@@ -89,13 +89,13 @@ body {
 .info_sect .wrapper .info_data h2 {
   font-size: 95px;
   line-height: 75px;
-  color: #3b47 if;
+  color: #3b47if;
   letter-spacing: 0.04em;
   margin-bottom: 40px;
 }
 .info_sect .wrapper .info_data .description {
   font-size: 20px;
-  color: #3b47 if;
+  color: #3b47if;
   line-height: 27px;
   margin-bottom: 35px;
 }
