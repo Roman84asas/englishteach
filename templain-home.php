@@ -254,9 +254,9 @@ get_header();
     <section class="box_subscribe" id="box_subscribe">
         <div class="wrapper">
             <div class="left_subscribe">
-                <span class="category">Английский и немецкий язык</span>
-                <h2 class="block_title font_nav">Подпишитесь на нас</h2>
-                <p class="description">Подпишитесь на нас и получите всю информацию о занятиях. Все изменения и новости будут рассылаться незамедлительно.</p>
+                <span class="category"><?php the_field('info_subscr'); ?></span>
+                <h2 class="block_title font_nav"><?php the_field('title_subsc'); ?>r</h2>
+                <p class="description"><?php the_field('descr_subscr'); ?></p>
                 <form class="form_subscribe" action="" >
                     <input type="email" class="email" placeholder="Введите Ваш email" name="">
                     <span class="separator"></span>
@@ -267,7 +267,11 @@ get_header();
             <div class="right_subscribe">
                 <figure>
                     <figcaption>
-                        <img class="mask" src="assets/img/feather.png" alt="">
+                        <?php
+                        $image = get_field('image_subscr');
+                        if ($image){ ?>
+                            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                        <?php }?>
                     </figcaption>
                 </figure>
             </div>
