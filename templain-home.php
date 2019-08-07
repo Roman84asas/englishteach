@@ -258,7 +258,7 @@ get_header();
                 <h2 class="block_title font_nav"><?php the_field('title_subsc'); ?>r</h2>
                 <p class="description"><?php the_field('descr_subscr'); ?></p>
                 <form class="form_subscribe" action="" >
-                    <input type="email" class="email" placeholder="Введите Ваш email" name="">
+                    <input type="email" class="email" placeholder="<?php the_field('email_subscr'); ?>" name="message">
                     <span class="separator"></span>
                     <input type="submit" value="">
                 </form>
