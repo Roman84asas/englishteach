@@ -1039,21 +1039,17 @@ body {
     font-weight: 300;
     margin-bottom: 30px;
   }
-  .box_subscribe .wrapper .left_subscribe .form_subscribe {
+  .box_subscribe .wrapper .left_subscribe #fld_9566968_1 {
     height: 45px;
     width: 100%;
     max-width: 300px;
     padding-left: 18px;
   }
-  .box_subscribe .wrapper .left_subscribe .form_subscribe input {
+  .box_subscribe .wrapper .left_subscribe .caldera_forms_form . form-control {
     height: 45px;
     font-size: 14px;
   }
-  .box_subscribe .wrapper .left_subscribe .form_subscribe .separator {
-    width: 1px;
-    height: 25px;
-  }
-  .box_subscribe .wrapper .left_subscribe .form_subscribe input[type="submit"] {
+  .box_subscribe .wrapper .left_subscribe .caldera_forms_form input[type="submit"] {
     width: 45px;
   }
   .box_subscribe .wrapper .right_subscribe {

@@ -10,9 +10,9 @@ get_header();
         the_post(); ?>
 
 
-    <section class="info_sect">
+    <section class="info_sect" id="scene">
         <div class="wrapper">
-            <div class="info_data font_nav">
+            <div class="info_data font_nav" id="info_data">
                 <h2><?php the_field('info_labe'); ?></h2>
                 <p class="description"><?php the_field('descr_info'); ?></p>
                 <a href="#box_subscribe" class="button" id="button"><span>Узнать больше</span></a>
@@ -255,13 +255,9 @@ get_header();
         <div class="wrapper">
             <div class="left_subscribe">
                 <span class="category"><?php the_field('info_subscr'); ?></span>
-                <h2 class="block_title font_nav"><?php the_field('title_subsc'); ?>r</h2>
+                <h2 class="block_title font_nav"><?php the_field('title_subsc'); ?></h2>
                 <p class="description"><?php the_field('descr_subscr'); ?></p>
-                <form class="form_subscribe" action="" >
-                    <input type="email" class="email" placeholder="<?php the_field('email_subscr'); ?>" name="message">
-                    <span class="separator"></span>
-                    <input type="submit" value="">
-                </form>
+                <?php echo do_shortcode('[caldera_form id="CF5d4d6adc65ee8"]'); ?>
             </div>
 
             <div class="right_subscribe">

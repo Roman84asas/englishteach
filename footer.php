@@ -26,7 +26,7 @@ global $englishteach;
         <?php } ?>
 
         <?php if ($englishteach['email']) { ?>
-            <span class="email"><a href="mailto:o.natusik_85@rambler.ru">Email: <?php echo esc_attr($englishteach['email']); ?></a></span>
+            <span class="email"><a href="mailto:<?php echo esc_attr($englishteach['email']); ?>">Email: <?php echo esc_attr($englishteach['email']); ?></a></span>
         <?php } ?>
     </div>
 
