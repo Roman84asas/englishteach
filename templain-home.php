@@ -9,7 +9,6 @@ get_header();
     while ( have_posts() ) :
         the_post(); ?>
 
-
     <section class="info_sect" id="scene">
         <div class="wrapper">
             <div class="info_data font_nav" id="info_data">
@@ -157,7 +156,6 @@ get_header();
 
     <section class="services_list" id="services_list">
         <div class="wrapper">
-
             <h2 class="block_title font_nav"><?php the_field('serv_title'); ?></h2>
             <p class="sub_title font_nav"><?php the_field('serv_title_descr'); ?></p>
 
