@@ -9,10 +9,6 @@ get_header();
     while ( have_posts() ) :
         the_post(); ?>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
     <section class="info_sect" id="scene">
         <div class="wrapper">
             <div class="info_data font_nav" id="info_data">
@@ -261,7 +257,6 @@ get_header();
                 <span class="category"><?php the_field('info_subscr'); ?></span>
                 <h2 class="block_title font_nav"><?php the_field('title_subsc'); ?></h2>
                 <p class="description"><?php the_field('descr_subscr'); ?></p>
-<<<<<<< HEAD
                 <?php
                 if(isset($_REQUEST["sendEma"])){
                     $message = esc_sql(htmlentities($_POST['message']));
@@ -277,9 +272,7 @@ get_header();
                     <input type="submit" name="sendEma" value="">
                     <?php wp_nonce_field(); ?>
                 </form>
-=======
-                <?php echo do_shortcode('[caldera_form id="CF5d4d6adc65ee8"]'); ?>
->>>>>>> origin/master
+
             </div>
 
             <div class="right_subscribe">
