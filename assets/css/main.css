@@ -74,6 +74,10 @@ body {
   height: 770px;
   margin-bottom: 40px;
   background: #eaeff4 url('../img/home.png') center center no-repeat;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 .info_sect .wrapper {
   height: 100%;
@@ -86,19 +90,19 @@ body {
 .info_sect .wrapper .info_data h2 {
   font-size: 95px;
   line-height: 75px;
-  color: #3b47 if;
+  color: #3b47;
   letter-spacing: 0.04em;
   margin-bottom: 40px;
 }
 .info_sect .wrapper .info_data .description {
   font-size: 20px;
-  color: #3b47 if;
+  color: #3b47;
   line-height: 27px;
   margin-bottom: 35px;
 }
 .info_sect .wrapper .info_data .button {
   background: #98a58a;
-  padding: 1em 2em;
+  padding: 1.3em 2.3em;
   color: #FFF;
   text-transform: uppercase;
   font-size: 14px;

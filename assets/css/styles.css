@@ -1,5 +1,5 @@
 body {
-  margin: 0 44px 44px;
+  margin: 0 44px 0 44px;
   color: #2d2d2d;
   font-family: 'Work Sans', sans-serif;
 }
@@ -77,6 +77,10 @@ body {
   height: 770px;
   margin-bottom: 40px;
   background: #eaeff4 url('../img/home.png') center center no-repeat;
+  border-top-left-radius: 400px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 .info_sect .wrapper {
   height: 100%;
@@ -101,7 +105,7 @@ body {
 }
 .info_sect .wrapper .info_data .button {
   background: #98a58a;
-  padding: 1em 2em;
+  padding: 1.3em 2.3em;
   color: #FFF;
   text-transform: uppercase;
   font-size: 14px;
@@ -112,6 +116,7 @@ body {
   appearance: none;
   cursor: pointer;
   overflow: hidden;
+  border-radius: 5px;
 }
 .info_sect .wrapper .info_data .button span {
   position: relative;
@@ -140,6 +145,7 @@ body {
   justify-content: space-around;
   background: #ebebe9;
   min-height: 335px;
+  border-radius: 5px;
 }
 .services_icon .item {
   width: calc(25% - 105px);
@@ -175,9 +181,10 @@ body {
 }
 .about_posts {
   margin-top: 160px;
-  margin-bottom: 160px;
+  margin-bottom: 120px;
   text-align: center;
 }
+
 .about_posts h2.block_title {
   color: #3b471f;
   font-size: 46px;
@@ -204,6 +211,19 @@ body {
 }
 .about_posts .about_list .about_item {
   width: calc(25% - 22px);
+  box-shadow: 1px 2px 20px #c4c4c4;
+  cursor: pointer;
+  -webkit-transition: .3s ease-in-out;
+  margin-bottom: 40px;
+}
+
+.about_posts .about_list .about_item:hover {
+  box-shadow: 1px 2px 20px #76b1ff;
+  -webkit-transition: .3s ease-in-out;
+}
+
+.about_posts .about_list .about_item img {
+  width: 100%;
 }
 .about_posts .about_list .about_item .data_line {
   margin-top: 30px;
@@ -216,16 +236,22 @@ body {
 }
 .about_posts .about_list .about_item .data_line .about_img {
   padding-right: 14px;
+  margin-left: 10px;
 }
 .about_posts .about_list .about_item .data_line .line {
   flex-grow: 1;
   height: 1px;
   background: #3b471f;
+  margin-right: 10px;
 }
 .about_posts .about_list h3 {
   color: #3b471f;
   font-size: 25px;
   transition: all 300ms ease-in-out;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .about_posts .about_list h3:hover {
   opacity: 0.5;
@@ -235,6 +261,7 @@ body {
   background: #eef1ec url('../img/bagr_serv.jpg') top center no-repeat;
   padding-top: 135px;
   text-align: center;
+  border-radius: 7px;
 }
 .services_list .block_title {
   display: inline-block;
@@ -351,6 +378,7 @@ body {
   align-items: stretch;
   flex-wrap: wrap-reverse;
   position: relative;
+  box-shadow: 1px 2px 20px #c4c4c4;
 }
 .slider_info .left_box {
   width: 50%;
@@ -470,6 +498,7 @@ body {
   margin-top: 100px;
   margin-bottom: 100px;
   background: #edf0f1;
+  border-radius: 7px;
 }
 .box_subscribe .wrapper {
   display: flex;
@@ -562,7 +591,8 @@ body {
   transition: all 300ms ease-in-out;
 }
 .box_subscribe .wrapper .right_subscribe {
-  width: calc(50% - 100px);
+  width: 35%;
+  overflow-x: visible;
 }
 .box_subscribe .wrapper .right_subscribe figure {
   min-height: 610px;
@@ -586,8 +616,8 @@ body {
   background: #ffffff url('../img/footer.jpg') bottom center no-repeat;
   min-height: 525px;
   text-align: center;
-  padding-top: 70px;
   box-sizing: border-box;
+  border-radius: 7px;
 }
 .contact_footer .logo {
   margin-bottom: 65px;
@@ -626,7 +656,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 85px;
 }
 .contact_footer .social a {
   margin-left: 20px;
@@ -1102,7 +1132,7 @@ body {
   .contact_footer .contact_data span {
     margin-right: 15px;
     margin-left: 15px;
-    font-size: 13px;
+    font-size: 16px;
   }
   .contact_footer .social {
     margin-top: 30px;
@@ -1291,7 +1321,7 @@ body {
     background: #eaeff4;
   }
   .info_sect .wrapper {
-    background: url('../img/home.png') center center no-repeat;
+    background: none;
   }
   .info_sect .wrapper .info_data h2 {
     font-size: 30px;
@@ -1322,7 +1352,7 @@ body {
   }
   .about_posts .about_list {
     flex-direction: column;
-    margin-left: 25%;
+    align-items: center;
   }
   .about_posts .about_list .about_item {
     width: 200px;
@@ -1360,26 +1390,84 @@ body {
     line-height: 40px;
   }
   .services_list .product_list {
-    margin-top: 180px;
+    margin-top: 120px;
   }
   .services_list .product_list .product {
     width: 100%;
     margin-top: 0;
   }
+  .services_list .product_list .product:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+  .services_list .product_list .product {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #cbd0d5;
+    padding-top: 10px;
+  }
+  .services_list .product_list .product .image_holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .services_list .product_list .product .image_holder img {
+    width: 85%;
+  }
   .services_list .product_list .product .data_holder {
-    padding-right: 10px;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  .services_list .product_list .product .data_holder span.catig {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    margin-top: 15px;
   }
   .services_list .product_list .product .data_holder h3 {
-    font-size: 28px;
+    font-size: 35px;
     margin-bottom: 30px;
   }
   .services_list .product_list .product .data_holder p {
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 60px;
+    line-height: 25px;
   }
   .services_list .all_products {
     margin-top: 120px;
     padding-bottom: 80px;
+  }
+  .box_subscribe {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+  .box_subscribe .wrapper .left_subscribe .category::before {
+    top: 25px;
+  }
+  .box_subscribe .wrapper .left_subscribe .category {
+    font-size: 18px;
+  }
+  .box_subscribe .wrapper .left_subscribe .block_title {
+    text-align: center;
+  }
+  .box_subscribe .wrapper .left_subscribe .description {
+    font-size: 16px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .box_subscribe .wrapper .left_subscribe {
+    width: 100%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box_subscribe .wrapper .left_subscribe .form_subscribe {
+    width: 95%;
   }
   .slider_info {
     margin-top: 60px;
@@ -1394,7 +1482,7 @@ body {
   }
   .slider_info .right_box {
     width: 100%;
-    padding-left: 0;
+    padding: 15px 5px;
   }
   .slider_info .right_box .data_holder {
     text-align: center;
@@ -1468,6 +1556,14 @@ body {
     position: absolute;
     margin-left: -2.5px;
     margin-top: -2.5px;
+  }
+  .contact_footer .contact_data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact_footer .contact_data span {
+    margin-bottom: 25px;
   }
 }
 @media (max-width: 320px) {
